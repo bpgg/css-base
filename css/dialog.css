@@ -1,0 +1,57 @@
+.triangle{
+    border-top: 50px solid #ccc;
+    border-left: 50px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-right: 50px solid transparent;
+
+    width: 0;
+    height: 0;
+    margin: 50px auto;
+}
+.dialog-box{
+    width: 300px;
+    margin: 50px auto;
+    /* display: flex; */
+}
+
+.dialog,.dialog2{
+    position: relative;
+    background-color: #6a6;
+    margin: 10px auto;
+    padding: 10px;
+    width: auto;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 6px;
+    color: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    display: inline-block;
+    /* float: left; */
+}
+.dialog2{
+    text-align: right;
+    float: right;
+}
+.dialog::before{
+    position: absolute;
+    left: -10px;
+    top: 8.5px;
+    content: '';
+    border-left: 0px solid transparent;
+    border-top: 10px solid transparent;
+    border-right: 10px solid #6a6;
+    border-bottom: 10px solid transparent;
+}
+.dialog2::before{
+    position: absolute;
+    right: -9px;
+    top: 8.5px;
+    content: '';
+    border-left: 10px solid #6a6;
+    border-top: 10px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 10px solid transparent;
+}

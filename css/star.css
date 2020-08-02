@@ -1,0 +1,71 @@
+.star{
+    position: relative;
+    width: 0;
+    height: 0;
+    margin: 150px auto;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid red;
+    transform: rotate(35deg);
+    -webkit-transform: rotate(35deg);
+    -moz-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    -o-transform: rotate(35deg);
+}
+.star::before{
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 80px solid red;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    transform: rotate(-35deg);
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
+    top: -45px;
+    left: -65px;
+}
+.star::after{
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid red;
+    transform: rotate(-70deg);
+    -webkit-transform: rotate(-70deg);
+    -moz-transform: rotate(-70deg);
+    -ms-transform: rotate(-70deg);
+    -o-transform: rotate(-70deg);
+    top: 3px;
+    left: -105px;
+}
+
+.six-star{
+    position: relative;
+    width: 0;
+    height: 0;
+    margin: 10px auto;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+}
+
+.six-star::before{
+    content: '';
+    width: 0;
+    height: 0;
+ 
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid red;
+
+    position: absolute;
+    top: 30px;
+    left: -50px;
+
+}

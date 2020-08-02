@@ -1,0 +1,39 @@
+.clearfix{
+    clear: both;
+    overflow: auto;
+}
+.article-box{
+    border: 1px solid #ccc;
+    width: 300px;
+    margin: 50px auto;
+    padding: 10px;
+}
+.article-box::first-letter{
+    font-size: 40px;
+    font-weight: bold;
+    /* 下沉 */
+    float: left; 
+}
+.article-box::first-line{
+    color: #f00;
+}
+
+.img-box{
+    border: 1px solid #ccc;
+    /* width: 300px; */
+    margin: 50px auto;
+    padding: 10px;
+    text-align: center;
+}
+.img-box::before{
+    content: url(./img/1.jpeg);
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+.img-box::after{
+    content: url(./img/2.jpeg);
+    display: block;
+    /* width: 200px;
+    height: 200px; */
+}

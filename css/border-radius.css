@@ -1,0 +1,38 @@
+/* 
+ 减少网站维护
+ 提升性能
+ 增加视觉美观
+*/
+
+.box1{
+    width: 200px;height: 200px;
+    border: 1px solid #ccc;
+    background-color: #f66;
+    margin: 50px auto;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.box2{
+    width: 200px;height: 200px;
+    border: 1px solid #ccc;
+    background-color: #f66;
+    margin: 50px auto;
+    border-top-left-radius: 200px 100px;/* x轴 y轴 */
+}
+
+.box3{
+    width: 100px;
+    height: 50px;
+    border: 1px solid #ccc;
+    background-color: #f66;
+    margin: 50px auto;
+    border-radius: 100px 100px 0px 0px;
+    -webkit-border-radius: 100px 100px 0px 0px;
+    -moz-border-radius: 100px 100px 0px 0px;
+    -ms-border-radius: 100px 100px 0px 0px;
+    -o-border-radius: 100px 100px 0px 0px;
+}
+
+
+

@@ -1,0 +1,85 @@
+/* 伪类选择器 */
+a:link{
+    color: #666;
+}
+a:visited{
+    color: #f00;
+}
+a:hover{
+    color: #000;
+}
+a:active{
+    color: #0f0;
+}
+
+/* UI元素状态选择器 */
+input:enabled{
+    background-color: #0f0;
+}
+input:disabled{
+    background: #f00;
+}
+
+/* 结构伪类选择器 */
+.clearfix{
+    clear: both;
+    overflow: auto;
+}
+.structure{
+    border: 1px solid #ccc;
+    width: 300px;
+    margin: 50px auto;
+    padding: 10px;
+}
+.structure li{
+    float: left;
+    border: 1px solid #ccc;
+    width: 20px;
+    padding: 2px;
+    margin:0 4px 4px 0;
+    list-style: none;
+}
+.structure li a{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-decoration: none;
+    text-align: center;
+    background-color: #f36;
+    color: white;
+}
+
+/* 第三个 */
+/* .structure li:nth-child(3){
+    background-color: #0f0;
+} */
+/* 偶数个 */
+/* .structure li:nth-child(2n){
+    background-color: #0f0;
+} */
+/* 奇数个 */
+/* .structure li:nth-child(2n+1){
+    background-color: #0f0;
+} */
+/* 每四个 */
+/* .structure li:nth-child(4n+1){
+    background-color: #0f0;
+} */
+
+/* 限制类型 */
+.structure li:nth-of-type(3){
+    background-color: #0f0;
+}
+/* 最后一个指定类型 */
+.structure li:last-of-type{
+    background-color: #0f0;
+}
+/* 当元素为空 */
+.structure li:empty{
+    background-color: #0f0;
+}
