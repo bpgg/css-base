@@ -1,0 +1,33 @@
+/* 
+    text-overflow:clip|ellipsis|string
+
+    不能单独使用
+    text-overflow:clip
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+*/
+.text{
+    margin: 40px auto;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    height: 50px;
+
+    text-overflow: clip;
+    overflow: hidden;
+}
+
+.text1{
+    margin: 40px auto;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    /* height: 50px; */
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

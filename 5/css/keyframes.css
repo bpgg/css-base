@@ -1,0 +1,42 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    position: fixed;
+    animation: mymove 2s infinite;
+    -webkit-animation: mymove1 2s infinite;
+}
+
+@keyframes mymove{
+    from{
+        top: 0;
+        left: 20%;
+    }
+    to{
+        top: 0;
+        left: 80%;
+    }
+}
+
+@keyframes mymove1{
+    0%{
+        top: 0;
+        left: 20%;
+    }
+    20%{
+        top: 0;
+        left: 80%;
+    }
+    50%{
+        left: 80%;
+        top:80%;
+    }
+    75%{
+        left: 20%;
+        top: 80%;
+    }
+    100%{
+        top: 0;
+        left: 20%;
+    }
+}

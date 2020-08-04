@@ -1,0 +1,32 @@
+/**
+    animation-name
+    animation-duration
+    animation-timing-function
+    animation-delay
+    animation-iteration-count
+    animation-direction
+*/
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    position: fixed;
+    animation-name: mymove;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes mymove{
+    from{
+        top: 0;
+        left: 20%;
+    }
+    to{
+        top: 0;
+        left: 80%;
+    }
+}

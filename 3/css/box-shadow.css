@@ -1,0 +1,48 @@
+/* 
+    box-shadow:
+    
+    h-shadow v-shadow 
+    
+    blur：模糊距离
+    spread：阴影尺寸
+    color ：阴影颜色
+    inset：内部阴影
+*/
+
+.cont{
+    margin: 100px auto;
+    background-color: #ccc;
+    width: 800px;
+    height: 400px;
+    padding: 40px;
+}
+.box{
+    widows:200px;
+    padding: 10px 10px 20px 10px;
+    box-sizing: border-box;
+    border: 1px solid #bfbfbf;
+    background-color: white;
+    box-shadow: 10px -2px 3px #aaa;
+    overflow: hidden;
+}
+.box img{
+    width: 180px;
+}
+
+.rl{
+    float: left;
+    transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    -moz-transform: rotate(7deg);
+    -ms-transform: rotate(7deg);
+    -o-transform: rotate(7deg);
+}
+
+.rr{
+    float: left;
+    transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+}

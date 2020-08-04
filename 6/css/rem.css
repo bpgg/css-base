@@ -1,0 +1,16 @@
+/*
+    12px
+    1.4rem
+    1.4em
+*/
+
+html{
+    /* 网页默认16px => 10px*/
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.4rem;
+}
+h1{
+    font-size: 2.4rem;
+}

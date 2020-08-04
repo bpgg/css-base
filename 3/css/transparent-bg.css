@@ -1,0 +1,23 @@
+#bg{
+    margin: 100px auto;
+    width: 800px;
+    height: 300px;
+    position: relative;
+    /* background-image: url(); */
+}
+.content{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    background-color: #fff;
+    opacity: 0.8;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    left: 200px;
+    top: 50px;
+    box-shadow: 3px 3px 5px #888888;
+}
